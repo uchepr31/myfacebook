@@ -46,7 +46,7 @@
         }
     }
 }
-  $DB = new Database();
+
 
 
     
