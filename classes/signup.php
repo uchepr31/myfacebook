@@ -24,6 +24,6 @@ class signup{
     {
         $query = "insert into users ('$userid', '$first_name', '$last_name', '$gender', '$email', '$password', '$url_address') values ()";
         $DB = new Database();
-        
+        $DB->save($query);
     }
 }
