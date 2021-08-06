@@ -1,11 +1,11 @@
 <?php
 
-    include("");
-    include("");
+    include("../classes/connect.php");
+    include("../classes/signup.php");
 
   if($_SERVER['REQUEST_METHOD'] == 'POST')
   {
-      $signup = new Signup();
+      $signup = new signup();
       $signup -> evaluate($_POST);
       $result = $signup -> evaluate($_POST);
       echo $result;
