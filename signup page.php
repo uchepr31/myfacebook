@@ -1,9 +1,18 @@
 <?php
+
+    include("connect.php");
+    include("signup.php");
+
   if($_SERVER['REQUEST_METHOD'] == 'POST')
   {
-    echo"<pre>";
-    print_r($_POST);
-    echo"</pre>";  
+      $signup = new Signup();
+      $signup -> evaluate($_POST);
+      $result = $signup -> evaluate($_POST);
+      echo $result;
+      
+    // echo"<pre>";
+    // print_r($_POST);
+    // echo"</pre>";  
   }
 
 ?>
