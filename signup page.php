@@ -1,7 +1,7 @@
 <?php
 
-    include("../classes/connect.php");
-    include("../classes/signup.php");
+    include("connect.php");
+    include("signup.php");
 
   if($_SERVER['REQUEST_METHOD'] == 'POST')
   {
