@@ -2,7 +2,7 @@
 class signup
 {
 
-    private $error = "";
+    public $error = "";
 
     public function evaluate($data)
     {
