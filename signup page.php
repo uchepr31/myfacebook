@@ -1,7 +1,7 @@
 <?php
 
-    include("C:\xampp\htdocs\coding\classes>connect.php");
-    include("C:\xampp\htdocs\coding\classes>signup.php");
+    include("");
+    include("");
 
   if($_SERVER['REQUEST_METHOD'] == 'POST')
   {
