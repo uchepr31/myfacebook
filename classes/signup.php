@@ -11,11 +11,11 @@ class signup
             # code...
             if (empty($value)) 
             {
-                $error = $eror . $key . "is empty!<br>";
+                $this->error = $this->error . $key . "is empty!<br>";
             }
         }
         
-            if ($error == "" ) 
+            if ($this->error == "" ) 
             {
                 // no error
                 $this->create_user($data)
@@ -23,7 +23,7 @@ class signup
     
             else 
             {
-                return $error;
+                return $this->error;
             }
       
     }
