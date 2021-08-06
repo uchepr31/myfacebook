@@ -15,10 +15,10 @@ class signup
             }
         }
         
-            if ($this->error == "" ) 
-            {
+            if ($this->error == "" ) {
+            
                 // no error
-                $this->create_user($data)
+                $this->create_user($data);
             }
     
             else 
@@ -65,3 +65,4 @@ class signup
         }
     
 }
+>
